@@ -63,4 +63,5 @@ for url in lecture_urls:
     scrape_each_video(soup)
     count += 1
 
+print("Done!")
 driver.quit()

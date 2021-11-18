@@ -17,7 +17,7 @@ def get_page_data(soup, url):
     for phrase in phrases:
         text = ''
         for sentence in phrase.select('span.cds-143.css-v4ktz5.cds-145'):
-            text += sentence.get_text(strip=True)
+            text += sentence.get_text(strip=True) + ' '
         paragraphs.append(text)
 
     # print(len(timestamps) == len(paragraphs))  # Should be equal
