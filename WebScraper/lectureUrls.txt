@@ -1,0 +1,12 @@
+https://www.coursera.org/learn/cs-410/lecture/rLpwp/lesson-1-1-natural-language-content-analysis
+https://www.coursera.org/learn/cs-410/lecture/7jqJI/lesson-2-1-vector-space-model-improved-instantiation
+https://www.coursera.org/learn/cs-410/lecture/YSvkh/lesson-3-1-evaluation-of-tr-systems
+https://www.coursera.org/learn/cs-410/lecture/nkg5n/lesson-4-1-probabilistic-retrieval-model-basic-idea
+https://www.coursera.org/learn/cs-410/lecture/gw3fo/lesson-5-1-feedback-in-text-retrieval
+https://www.coursera.org/learn/cs-410/lecture/mFYTD/lesson-6-1-learning-to-rank-part-1-optional
+https://www.coursera.org/learn/cs-410/lecture/7zA4L/7-1-overview-text-mining-and-analytics-part-1
+https://www.coursera.org/learn/cs-410/lecture/qGZrA/8-1-syntagmatic-relation-discovery-entropy
+https://www.coursera.org/learn/cs-410/lecture/EbbsO/9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+https://www.coursera.org/learn/cs-410/lecture/FcCdt/10-1-text-clustering-motivation
+https://www.coursera.org/learn/cs-410/lecture/kgKI9/11-1-text-categorization-discriminative-classifier-part-1
+https://www.coursera.org/learn/cs-410/lecture/dkntE/12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
