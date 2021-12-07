@@ -1,10 +1,11 @@
-var serverhost = 'http://127.0.0.1:8000';
+var serverhost = 'http://127.0.0.1:5000';
 
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
       
-          
-        var url = serverhost + '/wiki/get_wiki_summary/?topic='+ encodeURIComponent(request.topic) ;
+        console.log("CALLED")
+        console.log(request.topic)
+        var url = serverhost + 'http://127.0.0.1:5000/get/?topic='+ encodeURIComponent(request.topic) ;
         
         console.log(url);
         

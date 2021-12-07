@@ -5,7 +5,7 @@ idx = metapy.index.make_inverted_index('config.toml')
 ranker = metapy.index.OkapiBM25()
 
 query = metapy.index.Document()
-query.content('Inverse document frequency')    # Enter your query here (Ex: "PLSA" or "How to compute precision and recall?")
+query.content('Text mining')    # Enter your query here (Ex: "PLSA" or "How to compute precision and recall?")
 
 top_docs = ranker.score(idx, query, num_results=5)
 

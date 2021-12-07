@@ -19,7 +19,9 @@ from django.conf.urls import include
 from django.conf.urls import url
 from wiki import views
 
+
 urlpatterns = [
     path('', views.index, name='index'),
     url(r'^get_wiki_summary/$', views.get_wiki_summary, name='get_wiki_summary'),
+    url(r'^search_bm25/$', views.search_bm25, name='search_bm25'),
 ]
