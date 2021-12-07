@@ -16,6 +16,12 @@ class Searcher:
         self.idx = metapy.index.make_inverted_index(cfg)
         self.default_ranker = metapy.index.OkapiBM25()
 
+    def readFile(self, fileName):
+        fileObj = open(fileName, "r") #opens the file in read mode
+        words = fileObj.read().splitlines() #puts the file into an array
+        fileObj.close()
+        return words
+
     def search(self, request):
         """
         Accept a JSON request and run the provided query with the specified
@@ -33,11 +39,13 @@ class Searcher:
         ranker = metapy.index.OkapiBM25()
         response = {'query': request, 'results': []}
         top_docs = ranker.score(self.idx, query, num_results=5)
+
+        metadatalinks = self.readFile("metadata.txt")
         for num, (d_id, _) in enumerate(top_docs):
             content = self.idx.metadata(d_id).get('content')
             print("{}. {}\n".format(d_id + 1, content))
             response['results'].append({
-                'name': d_id,
+                'name': metadatalinks[d_id+1],
                 'content': content
             })
         response['elapsed_time'] = time.time() - start
