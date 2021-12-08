@@ -10,13 +10,13 @@ In the flask app folder, that contains the server code of our project as well as
 To modify how the search function works/extend it, you would look at changing the server.py file.  
 You could also create more endpoints/methods in search_server.py  
 The other folders are no longer used but were used to scrape the coursera data we needed and initial creation of the python function.  
- 3) How to install and run:  
+ 3) How to install and run (Also explained in the demo video https://youtu.be/9LsBYPtbf1s):  
 Clone this repository  
 Set up anaconda/other environment:  
-conda create --name testenv  
+conda create --name testenv python=3.5 
 proceed ([y]/n)?  
 y  
-conda activate testenv python=3.5  
+conda activate testenv
 Move to flaskApp folder  
 Pip install -r requirements.txt  
 Load the ChromeExtensionJS folder as unpacked into the chrome extension developer area  
