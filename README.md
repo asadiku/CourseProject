@@ -13,7 +13,7 @@ The other folders are no longer used but were used to scrape the coursera data w
  3) How to install and run (Also explained in the demo video https://youtu.be/9LsBYPtbf1s):  
 Clone this repository  
 Set up anaconda/other environment:  
-conda create --name testenv python=3.5 
+conda create --name testenv python=3.5  
 proceed ([y]/n)?  
 y  
 conda activate testenv
