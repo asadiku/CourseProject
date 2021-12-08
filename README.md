@@ -16,7 +16,7 @@ Set up anaconda/other environment:
 conda create --name testenv  
 proceed ([y]/n)?  
 y  
-conda activate testenv  
+conda activate testenv python=3.5  
 Move to flaskApp folder  
 Pip install -r requirements.txt  
 Load the ChromeExtensionJS folder as unpacked into the chrome extension developer area  
