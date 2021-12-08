@@ -1,7 +1,9 @@
 $(function(){
 
+	console.log('here')
     
     $('#keywordsubmit').click(function(){
+		console.log('clicked')
 		
 		var search_topic = $('#keyword').val();
 				
@@ -24,7 +26,7 @@ $(function(){
 
 					function loadTableData(items) {
 						const table = document.getElementById("testBody");
-						for(var i = table.rows.length - 1; i > 0; i--)
+						for(var i = table.rows.length - 1; i >= 0; i--)
 						{
 							table.deleteRow(i);
 						}
