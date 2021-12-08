@@ -43,9 +43,9 @@ class Searcher:
         metadatalinks = self.readFile("metadata.txt")
         for num, (d_id, _) in enumerate(top_docs):
             content = self.idx.metadata(d_id).get('content')
-            print("{}. {}\n".format(d_id + 1, content))
+            print("{}. {}\n".format(d_id, content))
             response['results'].append({
-                'name': metadatalinks[d_id+1],
+                'name': metadatalinks[d_id],
                 'content': content
             })
         response['elapsed_time'] = time.time() - start
